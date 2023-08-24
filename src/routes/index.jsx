@@ -43,7 +43,9 @@ const router = createBrowserRouter([
             }
         ]
     }
-]);
+], {
+    basename: import.meta.env.PUBLIC_URL
+});
 
 const MyRoutes = () => <RouterProvider router={router} />;
 

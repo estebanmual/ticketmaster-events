@@ -20,7 +20,7 @@ const LikedEvents = () => {
         const results = [];
 
         for (const eventId of likedEvents) {
-          const response = await fetch(`https://app.ticketmaster.com/discovery/v2/events/${eventId}?apikey=${import.meta.env.REACT_APP_VITE_TICKETMASTER_API_KEY}`)
+          const response = await fetch(`https://app.ticketmaster.com/discovery/v2/events/${eventId}?apikey=${import.meta.env.VITE_TICKETMASTER_API_KEY}`)
           const data = await response.json();
 
           results.push(data);
