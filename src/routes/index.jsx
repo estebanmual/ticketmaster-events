@@ -44,7 +44,7 @@ const router = createBrowserRouter([
         ]
     }
 ], {
-    basename: import.meta.env.PUBLIC_URL
+    basename: "/ticketmaster-events"
 });
 
 const MyRoutes = () => <RouterProvider router={router} />;
