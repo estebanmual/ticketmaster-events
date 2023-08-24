@@ -2,7 +2,7 @@
   "name": "ticketmaster-events",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://estebanmual.github.io/ticketmaster-events",
+  "homepage": "http://estebanmual.github.io/ticketmaster-events",
   "type": "module",
   "scripts": {
     "dev": "vite",
